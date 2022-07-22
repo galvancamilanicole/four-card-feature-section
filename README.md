@@ -43,7 +43,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Grid](https://www.https://css-tricks.com/snippets/css/complete-guide-grid/) - This is an amazing article which helped me finally understand Grid. I'd recommend it to anyone still learning this concept.
+- [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This is an amazing article which helped me finally understand Grid. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
