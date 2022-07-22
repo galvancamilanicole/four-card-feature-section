@@ -1,0 +1,119 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+header, main{
+    margin: 60px 40px ;
+}
+
+
+.title{
+    font-weight: 200;
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    padding: 10px 0;
+    line-height: 36px;
+    
+}
+
+.title strong{
+    font-weight: 600;
+}
+
+.subtitle{
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.card{
+    width: 100%;
+    height: 200px;
+    margin: 18px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 23px 42px -11px rgba(0,0,0,0.15);
+}
+
+.supervisor{
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team-builder{
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator{
+    border-top: 4px solid hsl(212, 86%, 64%);
+
+}
+
+.card-title{
+    color: hsl(234, 12%, 34%);
+    padding-bottom: 10px;
+}
+
+.card-subtitle{
+    color: hsl(229, 6%, 66%);
+    line-height: 24px;
+    font-size: 13px;
+}
+
+
+
+.image{
+    display: flex;
+    justify-content: end;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+}
+
+
+@media(min-width:376px){
+    header, main{
+        margin: 30px 14vw;
+    }
+
+    .title{
+        padding: 15px 23vw;
+    }
+
+    .subtitle{
+        padding: 0 18vw;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+        justify-content: space-evenly;
+        column-gap: 30px;
+    }
+
+    .card{
+        height: 220px;
+    }
+
+    .supervisor{
+        grid-column: 1 / 2;
+        grid-row: 1 / span 3;
+
+    }
+
+    .calculator{
+        grid-column: 3 / 4;
+        grid-row: 1 / span 3
+    }
+}
